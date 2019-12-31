@@ -18,4 +18,3 @@ RUN echo "deb http://deb.debian.org/debian buster non-free" >> /etc/apt/sources.
     rm -rf /tmp/* 
 
 ENV JAVA_HOME=/usr/lib/jvm/jdk-11.0.5
-ENV PATH="$JAVA_HOME/bin":$PATH
